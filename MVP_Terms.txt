@@ -1,0 +1,51 @@
+1. Essential Features (Must-have for MVP)
+
+Student Attendance Tracking
+
+Mark daily/period-wise presence or absence.
+
+Basic reports showing % attendance.
+
+Test Result Recording
+
+Input and store marks for each subject.
+
+View results per student.
+
+Fees Management
+
+Record payments and pending balances.
+
+Simple fee status view (Paid / Pending).
+
+Teacher Attendance
+
+Mark daily teacher attendance.
+
+View teacher-wise attendance history.
+
+2. Basic User Roles for MVP
+
+Admin (can manage everything)
+
+Teacher (can mark attendance, update results)
+
+Student/Parent (can view personal attendance, results, fee status)
+
+3. MVP Scope Limitations
+
+No advanced analytics or AI recommendations yet.
+
+No automated fee reminders — just manual status checks.
+
+Simple web or mobile UI, not heavily customized.
+
+Manual data entry, no biometric or automated attendance tracking yet.
+
+4. MVP Success Criteria
+
+Teachers can mark attendance and input results easily.
+
+Admin can see fee updates and teacher presence.
+
+Parents/students can check their records anytime.

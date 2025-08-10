@@ -1,0 +1,44 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "A comprehensive Student Management System with attendance tracking, test results, fees management, and user role management",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install",
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "student",
+    "management",
+    "attendance",
+    "education",
+    "school"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aditya14Sharma01/Student_Management_System.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aditya14Sharma01/Student_Management_System/issues"
+  },
+  "homepage": "https://github.com/Aditya14Sharma01/Student_Management_System#readme"
+}
